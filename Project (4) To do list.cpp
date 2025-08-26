@@ -162,7 +162,6 @@ void ApplyOptions(enUserOptions options, vector<stTask>& vTasks)
 
 
 
-
 void RunApp()
 {
 	vector<stTask> vTasks =
@@ -189,7 +188,7 @@ void RunApp()
 	 cout << "Are you done? [Y] or [N] ";
 	 cin >> input;
 
- } while (input != 'Y' || input != 'y');
+ } while (input == 'N' || input == 'n');
  
 }
 
