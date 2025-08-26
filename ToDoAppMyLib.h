@@ -32,6 +32,19 @@ namespace SecondaryFunctions
 		cout << "\t\t\t\t--------------------------------------------------------\n\n\n";
 	}
 
+	int GetNumbersInRange(int From, int To)
+	{
+		int Number = ValidateInputIsANumber();
+
+		while (Number < From || Number > To)
+		{
+			cout << "Please enter a number between " << From << " & " << To << endl;
+			Number = ValidateInputIsANumber();
+		}
+
+		return Number;
+	}
+
 
 	int ReadHowMany(string Question)
 	{
