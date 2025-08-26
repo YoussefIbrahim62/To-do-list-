@@ -125,6 +125,9 @@
   <ItemGroup>
     <ClCompile Include="Project (4) To do list.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ToDoAppMyLib.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
